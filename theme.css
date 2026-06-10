@@ -6363,10 +6363,6 @@ body:not(.is-phone) .modal.mod-sync-history {
   }
 }
 
-.vertical-tab-nav-item-icon {
-  display: none;
-}
-
 body.theme-setting-enableIconsInSettings {
   .vertical-tab-nav-item-icon {
     display: flex;
@@ -9984,6 +9980,7 @@ body.theme-setting-overridePluginUpdateTracker {
 
 .HyperMD-header .cm-header-1, .HyperMD-header .cm-header-2, .HyperMD-header .cm-header-3, .HyperMD-header .cm-header-4, .HyperMD-header .cm-header-5, .HyperMD-header .cm-header-6 {
   font-weight: 300;
+  font-size: .8em!important;
 }
 
 .status-bar {
@@ -10001,6 +9998,14 @@ body.theme-setting-overridePluginUpdateTracker {
 
 .mod-sidedock.workspace-tabs.mod-top.workspace-tab-header-container {
   margin-top: 0!important;
+}
+
+.nav-folder-title[style*="padding-inline-start: 27px"] > :first-child {
+  margin-left: -24px !important;
+}
+
+.inline-title {
+  margin: 1em auto;
 }
 
 
