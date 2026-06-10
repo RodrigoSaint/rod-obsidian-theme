@@ -9979,8 +9979,8 @@ body.theme-setting-overridePluginUpdateTracker {
 }
 
 .HyperMD-header .cm-header-1, .HyperMD-header .cm-header-2, .HyperMD-header .cm-header-3, .HyperMD-header .cm-header-4, .HyperMD-header .cm-header-5, .HyperMD-header .cm-header-6 {
-  font-weight: 300;
-  font-size: .8em!important;
+  font-weight: 400;
+  font-size: .7em!important;
 }
 
 .status-bar {
