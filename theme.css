@@ -3575,7 +3575,7 @@ body.theme-setting-distinguishNonContentTabs {
 }
 
 .empty-state {
-  justify-content: flex-start;
+  justify-content: center;
   padding-top: 3em;
 }
 
@@ -3590,9 +3590,13 @@ body.theme-setting-distinguishNonContentTabs {
 
 .empty-state-action-list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 0.5em;
   margin-top: 0;
+}
+
+.empty-state-action-list > .tappable {
+  width: 300px;
 }
 
 .empty-state-action-list .empty-state-action {
@@ -9965,6 +9969,40 @@ body.theme-setting-overridePluginUpdateTracker {
 
 /* #endregion */
 /* #region Dev stuff */
+
+
+.theme-dark {
+.view-header, .workspace-leaf-content .view-content, .workspace-tab-header-inner, .workspace-tab-header-new-tab {
+  background-color: var(--theme-color-baseDarkened60)!important
+}
+
+.workspace-tab-header-inner {
+  color: var(--theme-color-baseLightened70)!important
+}
+
+}
+
+.HyperMD-header .cm-header-1, .HyperMD-header .cm-header-2, .HyperMD-header .cm-header-3, .HyperMD-header .cm-header-4, .HyperMD-header .cm-header-5, .HyperMD-header .cm-header-6 {
+  font-weight: 300;
+}
+
+.status-bar {
+  width: 100%;
+  justify-content: end;
+}
+
+.tree-item-self.nav-folder-title.is-clickable.mod-collapsible.has-focus {
+  padding-left: 0!important;
+}
+
+.nav-header {
+  display: none;
+}
+
+.mod-sidedock.workspace-tabs.mod-top.workspace-tab-header-container {
+  margin-top: 0!important;
+}
+
 
 /* Show border of content area clearly */
 /* .cm-contentContainer > .cm-content {
