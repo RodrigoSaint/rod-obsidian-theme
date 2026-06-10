@@ -9968,15 +9968,22 @@ body.theme-setting-overridePluginUpdateTracker {
 
 
 .theme-dark {
-.view-header, .workspace-leaf-content .view-content, .workspace-tab-header-inner, .workspace-tab-header-new-tab {
-  background-color: var(--theme-color-baseDarkened60)!important
+  .metadata-container, .view-header, .workspace-leaf-content .view-content, .workspace-tab-header-inner, .workspace-tab-header-new-tab {
+    background-color: var(--theme-color-baseDarkened60)!important
+  }
+
+  .workspace-tab-header-inner {
+    color: var(--theme-color-baseLightened70)!important
+  }
+  
+  .metadata-container{
+    width: var(--file-line-width);
+    margin: 0 auto;
+    padding: 0;
+  }
 }
 
-.workspace-tab-header-inner {
-  color: var(--theme-color-baseLightened70)!important
-}
 
-}
 
 .HyperMD-header .cm-header-1, .HyperMD-header .cm-header-2, .HyperMD-header .cm-header-3, .HyperMD-header .cm-header-4, .HyperMD-header .cm-header-5, .HyperMD-header .cm-header-6 {
   font-weight: 400;
