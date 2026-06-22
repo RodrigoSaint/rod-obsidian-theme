@@ -10015,6 +10015,10 @@ body.theme-setting-overridePluginUpdateTracker {
   margin: 1em auto;
 }
 
+.cm-sizer .metadata-content {
+  margin-bottom: 30px;
+}
+
 
 /* Show border of content area clearly */
 /* .cm-contentContainer > .cm-content {
